@@ -1,0 +1,17 @@
+a:link{
+  color: blue;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color: red;
+}
+
+
+.section:hover{
+    box-shadow: 5px 0px 25px rgb(13, 13, 13);
+}
