@@ -1,9 +1,6 @@
 .ellipsis{
     width: 300px;
     border: 1px solid black;
-    overflow: hidden;.ellipsis{
-    width: 300px;
-    border: 1px solid black;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -37,29 +34,13 @@
     word-wrap:break-word;
 
 }
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-/*This repeating is just for learning purpose*/
+.shadow{
 
-.clip{
-    color:blue;
-    width:320px;
-    border: 1px solid rgb(43, 0, 100);
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: clip;
-}
-
-.ellipsis:hover{
-    overflow: visible;
-}
-.clip:hover{
-   overflow: visible;
-}
-
-.vert{
-    color:red;
-    writing-mode:vertical-rl
+    text-shadow: 0 0 30px rgb(255, 255, 255);
+    text-shadow: 0 0 30px rgb(255, 255, 255), 0 0 30px rgb(0, 200, 0), 0 0 30px forestgreen, 0 0 30px forestgreen,
+    0 0 30px rgb(137, 139, 34);
     
+    color: rgb(224, 255, 22);
+                 
+               
 }
