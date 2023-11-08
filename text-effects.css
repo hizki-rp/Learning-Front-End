@@ -1,7 +1,42 @@
 .ellipsis{
     width: 300px;
     border: 1px solid black;
+    overflow: hidden;.ellipsis{
+    width: 300px;
+    border: 1px solid black;
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*This repeating is just for learning purpose*/
+
+.clip{
+    color:blue;
+    width:320px;
+    border: 1px solid rgb(43, 0, 100);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.ellipsis:hover{
+    overflow: visible;
+}
+.clip:hover{
+   overflow: visible;
+}
+
+.vert{
+    color:red;
+    writing-mode:vertical-rl
+    
+}
+.wrap{
+    margin: 0 auto;
+    width:100px;
+    word-wrap:break-word;
+
+}
     white-space: nowrap;
     text-overflow: ellipsis;
 }
