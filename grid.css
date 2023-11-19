@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: red;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
